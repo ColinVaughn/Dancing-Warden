@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dancingmobs",
+  "version": "${version}",
+  "name": "DancingMobs",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/DancingMobs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "variety.dancingmobs.client.DancingMobsClient"
+    ],
+    "main": [
+      "variety.dancingmobs.DancingMobs"
+    ]
+  },
+  "mixins": [
+    "DancingMobs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
